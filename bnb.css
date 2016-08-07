@@ -1,0 +1,73 @@
+body{
+  margin: 0;
+  background-color: #EDEFED;
+  color: #565A5C;
+  font-family: helvetica;
+}
+
+header{
+  color: #FFFFFF;
+  background: url("https://dl.dropboxusercontent.com/u/297682547/Hairbnb/header/nyc.jpg");
+background-size: cover;
+height: 400px;
+text-align: center;
+
+  }
+
+#nav li{
+  display: inline-block;
+  padding: 10px;
+
+}
+
+#nav {
+  float:right;
+  margin: 0;
+  padding-right: 30px;
+  padding-top: 30px;
+  }
+#logo {
+float: left;
+height: 50px;
+padding: 10px
+}
+
+#host {
+  border: 2px solid white;
+  border-radius: 3px;
+
+}
+
+#host:hover {
+  opacity: 0.5;
+}
+
+h1{
+  padding-top: 150px;
+  margin: 0;
+  font-size: 50px;
+  }
+
+h4 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.inspiration {
+  text-align: center;
+}
+
+.inspiration img {
+  padding: 15px;
+}
+
+.destbuttons {
+  border: 3px solid grey;
+  background-color: white;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.destbuttons:hover {
+  opacity: 0.5;
+}
